@@ -1,0 +1,9 @@
+http://emedicine.medscape.com
+/dermatology
+-overview#showall
+-clinical#showall
+-differential
+-workup#showall
+-treatment#showall
+-medication#showall
+-followup#showall

@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A36386576E28DD07F6201AA /* Pods_myAlmanacTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA236A3E4527F99679D456C0 /* Pods_myAlmanacTemplate.framework */; };
+		353FC86E1E13F26B003AD60A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353FC86D1E13F26B003AD60A /* AppDelegate.swift */; };
+		353FC8701E13F26B003AD60A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353FC86F1E13F26B003AD60A /* ViewController.swift */; };
+		353FC8751E13F26B003AD60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353FC8741E13F26B003AD60A /* Assets.xcassets */; };
+		353FC8781E13F26B003AD60A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353FC8761E13F26B003AD60A /* LaunchScreen.storyboard */; };
+		353FC8801E13F2EE003AD60A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353FC87F1E13F2EE003AD60A /* TableViewController.swift */; };
+		5040D3181E365C590011C3DE /* source.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5040D3161E365C590011C3DE /* source.txt */; };
+		5062C09A1E38FBC2005C3DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5062C0991E38FBC2005C3DD8 /* Main.storyboard */; };
+		506712D31E3784600006848C /* DetailedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506712D21E3784600006848C /* DetailedTableViewController.swift */; };
+		5086E0491E3CB89A00904C99 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5086E0481E3CB89A00904C99 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09DD0A1B84217B5D03954C8B /* Pods-myAlmanacTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myAlmanacTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-myAlmanacTemplate/Pods-myAlmanacTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		353FC86A1E13F26B003AD60A /* myAlmanacTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myAlmanacTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353FC86D1E13F26B003AD60A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		353FC86F1E13F26B003AD60A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		353FC8741E13F26B003AD60A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353FC8771E13F26B003AD60A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		353FC8791E13F26B003AD60A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353FC87F1E13F2EE003AD60A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		37C89AF2278D0A353D4E7A32 /* Pods-myAlmanacTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myAlmanacTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myAlmanacTemplate/Pods-myAlmanacTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		5040D3161E365C590011C3DE /* source.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = source.txt; sourceTree = "<group>"; };
+		5062C0991E38FBC2005C3DD8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		506712D21E3784600006848C /* DetailedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedTableViewController.swift; sourceTree = "<group>"; };
+		5086E0481E3CB89A00904C99 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA236A3E4527F99679D456C0 /* Pods_myAlmanacTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myAlmanacTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353FC8671E13F26B003AD60A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A36386576E28DD07F6201AA /* Pods_myAlmanacTemplate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353FC8611E13F26B003AD60A = {
+			isa = PBXGroup;
+			children = (
+				5086E0481E3CB89A00904C99 /* Podfile */,
+				353FC86C1E13F26B003AD60A /* myAlmanacTemplate */,
+				353FC86B1E13F26B003AD60A /* Products */,
+				A9003E931266BAB26876B9DE /* Pods */,
+				B486532924B473261FBB6776 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		353FC86B1E13F26B003AD60A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353FC86A1E13F26B003AD60A /* myAlmanacTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353FC86C1E13F26B003AD60A /* myAlmanacTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				353FC86D1E13F26B003AD60A /* AppDelegate.swift */,
+				353FC86F1E13F26B003AD60A /* ViewController.swift */,
+				353FC87F1E13F2EE003AD60A /* TableViewController.swift */,
+				506712D21E3784600006848C /* DetailedTableViewController.swift */,
+				5062C0991E38FBC2005C3DD8 /* Main.storyboard */,
+				353FC8741E13F26B003AD60A /* Assets.xcassets */,
+				353FC8761E13F26B003AD60A /* LaunchScreen.storyboard */,
+				353FC8791E13F26B003AD60A /* Info.plist */,
+				5040D3161E365C590011C3DE /* source.txt */,
+			);
+			path = myAlmanacTemplate;
+			sourceTree = "<group>";
+		};
+		A9003E931266BAB26876B9DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37C89AF2278D0A353D4E7A32 /* Pods-myAlmanacTemplate.debug.xcconfig */,
+				09DD0A1B84217B5D03954C8B /* Pods-myAlmanacTemplate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B486532924B473261FBB6776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA236A3E4527F99679D456C0 /* Pods_myAlmanacTemplate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353FC8691E13F26B003AD60A /* myAlmanacTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353FC87C1E13F26B003AD60A /* Build configuration list for PBXNativeTarget "myAlmanacTemplate" */;
+			buildPhases = (
+				44EE90A223968AA590ADF1E7 /* [CP] Check Pods Manifest.lock */,
+				353FC8661E13F26B003AD60A /* Sources */,
+				353FC8671E13F26B003AD60A /* Frameworks */,
+				353FC8681E13F26B003AD60A /* Resources */,
+				E1D884D7756057E0A65EFF08 /* [CP] Embed Pods Frameworks */,
+				ABB6B559D81AE78A02C304BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myAlmanacTemplate;
+			productName = myAlmanacTemplate;
+			productReference = 353FC86A1E13F26B003AD60A /* myAlmanacTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353FC8621E13F26B003AD60A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sergey Umarov";
+				TargetAttributes = {
+					353FC8691E13F26B003AD60A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R254GZSR7N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 353FC8651E13F26B003AD60A /* Build configuration list for PBXProject "myAlmanacTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353FC8611E13F26B003AD60A;
+			productRefGroup = 353FC86B1E13F26B003AD60A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353FC8691E13F26B003AD60A /* myAlmanacTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353FC8681E13F26B003AD60A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353FC8781E13F26B003AD60A /* LaunchScreen.storyboard in Resources */,
+				353FC8751E13F26B003AD60A /* Assets.xcassets in Resources */,
+				5062C09A1E38FBC2005C3DD8 /* Main.storyboard in Resources */,
+				5086E0491E3CB89A00904C99 /* Podfile in Resources */,
+				5040D3181E365C590011C3DE /* source.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44EE90A223968AA590ADF1E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB6B559D81AE78A02C304BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myAlmanacTemplate/Pods-myAlmanacTemplate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D884D7756057E0A65EFF08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myAlmanacTemplate/Pods-myAlmanacTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353FC8661E13F26B003AD60A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353FC8701E13F26B003AD60A /* ViewController.swift in Sources */,
+				506712D31E3784600006848C /* DetailedTableViewController.swift in Sources */,
+				353FC8801E13F2EE003AD60A /* TableViewController.swift in Sources */,
+				353FC86E1E13F26B003AD60A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		353FC8761E13F26B003AD60A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353FC8771E13F26B003AD60A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		353FC87A1E13F26B003AD60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		353FC87B1E13F26B003AD60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		353FC87D1E13F26B003AD60A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C89AF2278D0A353D4E7A32 /* Pods-myAlmanacTemplate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R254GZSR7N;
+				INFOPLIST_FILE = myAlmanacTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kostinaleksey.DermAlmanac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		353FC87E1E13F26B003AD60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DD0A1B84217B5D03954C8B /* Pods-myAlmanacTemplate.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R254GZSR7N;
+				INFOPLIST_FILE = myAlmanacTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kostinaleksey.DermAlmanac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353FC8651E13F26B003AD60A /* Build configuration list for PBXProject "myAlmanacTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353FC87A1E13F26B003AD60A /* Debug */,
+				353FC87B1E13F26B003AD60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353FC87C1E13F26B003AD60A /* Build configuration list for PBXNativeTarget "myAlmanacTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353FC87D1E13F26B003AD60A /* Debug */,
+				353FC87E1E13F26B003AD60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353FC8621E13F26B003AD60A /* Project object */;
+}
